@@ -15,7 +15,9 @@ QuickConvert = function(Location) {
   text <- pdf_text(Location)
   
   #Create Corpus
-  textCorpus <<- Corpus(VectorSource(text))}
+  textCorpus <<- Corpus(VectorSource(text))
+
+}
 
 
 
